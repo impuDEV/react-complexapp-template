@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "./dist/",
     "noImplicitAny": true,
-    "module": "ES6",
+    "module": "ESNext",
     "target": "ES5",
     "jsx": "react-jsx",
 //    "strict": true,
@@ -10,7 +10,14 @@
     "baseUrl": ".",
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "decorators",
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.promise"
+    ]
   },
   "ts-node": {
     "compilerOptions": {
