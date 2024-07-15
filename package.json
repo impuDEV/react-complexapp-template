@@ -8,7 +8,11 @@
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development"
   },
-  "keywords": ["react", "typescript", "webpack"],
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
   "author": "impuDEV",
   "license": "ISC",
   "devDependencies": {
@@ -19,6 +23,7 @@
     "@types/webpack-dev-server": "^4.7.2",
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
     "sass": "^1.77.8",
     "sass-loader": "^14.2.1",
     "style-loader": "^4.0.0",
